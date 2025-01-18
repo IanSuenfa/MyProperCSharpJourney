@@ -6,7 +6,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        // FirstCSharpProgram.Example();
+        //FirstCSharpProgram.Example();
         //FirstCSharpProgram.Exercise();
 
         //Variables.Example();
@@ -16,6 +16,7 @@ class Program
 
         //AssignmentOperators.Example();
         //UserInput.Example();
-        ConcatentionAndInterpolation.Example();
+        //ConcatentionAndInterpolation.Example();
+        OperatorsAndStrings.Example();
     }
 }
