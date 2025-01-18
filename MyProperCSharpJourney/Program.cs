@@ -1,4 +1,5 @@
 ﻿using CSharpTutorial.SoloLearn;
+using MyProperCSharpJourney.Exersise_work;
 
 namespace CSharpTutorial;
 
@@ -17,6 +18,9 @@ class Program
         //AssignmentOperators.Example();
         //UserInput.Example();
         //ConcatentionAndInterpolation.Example();
+        //IfStatements.Example();
+        //SwitchStatements.Example();
         OperatorsAndStrings.Example();
+
     }
 }
