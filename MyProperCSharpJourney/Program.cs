@@ -1,10 +1,21 @@
-﻿namespace MyProperCSharpJourney
+﻿using CSharpTutorial.SoloLearn;
+
+namespace CSharpTutorial;
+
+class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        // FirstCSharpProgram.Example();
+        //FirstCSharpProgram.Exercise();
+
+        //Variables.Example();
+        //DoingMath.Example();
+
+        //DataTypes.Example();
+
+        //AssignmentOperators.Example();
+        //UserInput.Example();
+        ConcatentionAndInterpolation.Example();
     }
 }
