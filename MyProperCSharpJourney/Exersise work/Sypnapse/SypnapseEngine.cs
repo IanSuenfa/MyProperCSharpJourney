@@ -35,38 +35,79 @@ namespace MyProperCSharpJourney.Exersise_work.Sypnapse
                 }
             }
 
-            Console.WriteLine("Please press any button to continue");
-            Console.ReadLine();
+            Console.WriteLine("Please press ENTER to continue");
+            Console.ReadKey();
             
-            Console.WriteLine("Welcome to the SypnapseEngine");
-
-            Console.WriteLine("Enter [1] to play");
-            Console.WriteLine("Enter [2] to see credits");
-            Console.WriteLine("Enter [3] to exit");
-
+            Console.WriteLine("Welcome to the SypnapseEngine Alpha 1.2.1");
+            
+            
             while (true)
             {
-                string input = Console.ReadLine();
-                if (input == "1")
-                {
-                    Console.WriteLine("Press [1] For: 289-B84");
-                    Console.WriteLine("Press [2] For: ???");
-                }
-                else if (input == "2")
-                {
-                    Credits(name);
-                }
-                else if (input == "3")
-                {
-                    Console.WriteLine("Exiting...");
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("Invalid input");
-                }
+                Console.WriteLine("Enter [1] to play");
+                Console.WriteLine("Enter [2] to see credits");
+                Console.WriteLine("Enter [3] to exit");
+
+            
+                ConsoleKeyInfo input = Console.ReadKey();
+                Console.WriteLine("");
+
+                    if (input.Key == ConsoleKey.D1)
+                    {
+                    Console.WriteLine("");
+                    if (input.Key == ConsoleKey.D1)
+                        {
+                            Game1();
+                        }
+                        else if (input.Key == ConsoleKey.D2)
+                        {
+                            Console.WriteLine("You have selected ???");
+                            Console.WriteLine("Press any button to exit");
+                            Console.ReadLine();
+                        }
+                        else if (input.Key == ConsoleKey.D3)
+                        {
+                            Console.WriteLine("Exiting...");
+                            break;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Invalid input");
+                        }
+
+                    }
+                    else if (input.Key == ConsoleKey.D2)
+                    {
+                        Credits(name);
+                    }
+                    else if (input.Key == ConsoleKey.D3)
+                    {
+                        Console.WriteLine("Exiting...");
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid input");
+                    }
+
+
             }
         }
+
+            private static void Game1()
+        {
+            Console.WriteLine("You have selected 289-B84");
+            Console.WriteLine("Press any button to exit");
+            Console.ReadLine();
+        }
+
+
+        private static void Game2()
+        {
+            Console.WriteLine("You have selected ???");
+            Console.WriteLine("Press any button to exit");
+            Console.ReadLine();
+        }
+
 
             private static void Credits(string name)
         {
@@ -96,7 +137,7 @@ namespace MyProperCSharpJourney.Exersise_work.Sypnapse
             Console.WriteLine("oopsies forgot to write the command");
             Console.WriteLine("ok bye for real for real for real for real for real");
             Console.WriteLine("Press any button to exit");
-            Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }
