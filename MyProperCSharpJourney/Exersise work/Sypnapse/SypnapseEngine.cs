@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CSharpTutorial.SoloLearn;
 
 namespace MyProperCSharpJourney.Exersise_work.Sypnapse
 {
@@ -19,7 +20,7 @@ namespace MyProperCSharpJourney.Exersise_work.Sypnapse
                 Console.WriteLine("Please enter your password");
 
                 string password = Console.ReadLine();
-                if (password == "3.14159265")
+                if (password == "314159265")
                 {
                     Console.WriteLine("Password correct");
                     break;
@@ -38,33 +39,42 @@ namespace MyProperCSharpJourney.Exersise_work.Sypnapse
             Console.WriteLine("Please press ENTER to continue");
             Console.ReadKey();
             
-            Console.WriteLine("Welcome to the SypnapseEngine Alpha 1.2.1");
+            Console.WriteLine("Welcome to the SypnapseEngine Alpha 1.2.3");
             
             
             while (true)
             {
                 Console.WriteLine("Enter [1] to play");
                 Console.WriteLine("Enter [2] to see credits");
-                Console.WriteLine("Enter [3] to exit");
+                Console.WriteLine("Enter [3] to see error codes");
+                Console.WriteLine("Enter [4] to exit");
 
-            
-                ConsoleKeyInfo input = Console.ReadKey();
+
+               
                 Console.WriteLine("");
-
-                    if (input.Key == ConsoleKey.D1)
+                string MenuInput = Console.ReadLine();
+                if (MenuInput == "1")
                     {
-                    Console.WriteLine("");
-                    if (input.Key == ConsoleKey.D1)
+                    Console.WriteLine("Press [1]");
+                    Console.WriteLine("Press [2]");
+                    string GameInput = Console.ReadLine();
+                    if (GameInput == "1")
                         {
                             Game1();
                         }
-                        else if (input.Key == ConsoleKey.D2)
+                        else if (GameInput == "2")
                         {
                             Console.WriteLine("You have selected ???");
                             Console.WriteLine("Press any button to exit");
                             Console.ReadLine();
                         }
-                        else if (input.Key == ConsoleKey.D3)
+
+                        else if (MenuInput == "3")
+                        {
+                        Console.WriteLine("Error Code 9694: Game contents cannot be found (Aka the developer could not be physically bothered to code that game)");
+                        }    
+
+                        else if (MenuInput == "4")
                         {
                             Console.WriteLine("Exiting...");
                             break;
@@ -75,11 +85,11 @@ namespace MyProperCSharpJourney.Exersise_work.Sypnapse
                         }
 
                     }
-                    else if (input.Key == ConsoleKey.D2)
+                    else if (MenuInput == "2")
                     {
                         Credits(name);
                     }
-                    else if (input.Key == ConsoleKey.D3)
+                    else if (MenuInput == "3")
                     {
                         Console.WriteLine("Exiting...");
                         break;
@@ -96,6 +106,7 @@ namespace MyProperCSharpJourney.Exersise_work.Sypnapse
             private static void Game1()
         {
             Console.WriteLine("You have selected 289-B84");
+            Console.WriteLine("Error code: 9694");
             Console.WriteLine("Press any button to exit");
             Console.ReadLine();
         }
@@ -104,6 +115,9 @@ namespace MyProperCSharpJourney.Exersise_work.Sypnapse
         private static void Game2()
         {
             Console.WriteLine("You have selected ???");
+            Console.WriteLine("Game packages unloading");
+            Console.WriteLine("Initalising Snapshot Beta 1.1.1");
+            Console.WriteLine("An error ocurred whilst loading [SNAPSHOT BETA 1.1.1] to maintain Alpha's Package integrety Program_??? has been terminated");
             Console.WriteLine("Press any button to exit");
             Console.ReadLine();
         }
@@ -135,7 +149,7 @@ namespace MyProperCSharpJourney.Exersise_work.Sypnapse
             Console.WriteLine("ok bye for real for real for real");
             Console.WriteLine("ok bye for real for real for real for real");
             Console.WriteLine("oopsies forgot to write the command");
-            Console.WriteLine("ok bye for real for real for real for real for real");
+            Console.WriteLine("Initalising...");
             Console.WriteLine("Press any button to exit");
             Console.ReadKey();
         }
