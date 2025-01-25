@@ -11,6 +11,53 @@ namespace MyProperCSharpJourney.Exersise_work.Sypnapse
     {
         public static void Example()
         {
+            Thread.Sleep(5000);
+            Console.WriteLine("INITIALING...");
+            Thread.Sleep(3000);
+            Console.WriteLine("lOADING PACKAGES");
+            Thread.Sleep(2000);
+            Console.WriteLine("lOADING ASSETS");
+            Thread.Sleep(2000);
+            Console.WriteLine("lOADING SCRIPTS");
+            Thread.Sleep(2000);
+            Console.WriteLine("CURRENT SYSTEM MEMORY USAGE 500MB");
+            Thread.Sleep(2000);
+            Console.WriteLine("SYPNAPSE.EXE LOADED");
+            Thread.Sleep(2000);
+            Console.WriteLine("RUNNING SYPNAPSE ALPHA V1.3.5");
+            Thread.Sleep(1000);
+            Console.WriteLine("Sypnapse Incorporated:");
+            Thread.Sleep(5000);
+            Console.WriteLine("──────────────────────────────");
+            Console.Write("───────────────▄▄───▐█\r\n");
+            Console.Write("───▄▄▄───▄██▄──█▀───█─▄\r\n");
+            Console.WriteLine("─▄██▀█▌─██▄▄──▐█▀▄─▐█▀");
+            Console.Write("▐█▀▀▌───▄▀▌─▌─█─▌──▌─▌\r\n");
+            Console.Write("▌▀▄─▐──▀▄─▐▄─▐▄▐▄─▐▄─▐▄\r\n");
+            Console.Write("──────────────────────────────");
+            Thread.Sleep(10000);
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.Write("");
+            Console.Write("░██╗░░░░░░░██╗███████╗██╗░░░░░░█████╗░░█████╗░███╗░░░███╗███████╗  ████████╗░█████╗░\r\n");
+            Console.Write("░██║░░██╗░░██║██╔════╝██║░░░░░██╔══██╗██╔══██╗████╗░████║██╔════╝  ╚══██╔══╝██╔══██╗\r\n");
+            Console.Write("░╚██╗████╗██╔╝█████╗░░██║░░░░░██║░░╚═╝██║░░██║██╔████╔██║█████╗░░  ░░░██║░░░██║░░██║\r\n");
+            Console.Write("░░████╔═████║░██╔══╝░░██║░░░░░██║░░██╗██║░░██║██║╚██╔╝██║██╔══╝░░  ░░░██║░░░██║░░██║\r\n");
+            Console.Write("░░╚██╔╝░╚██╔╝░███████╗███████╗╚█████╔╝╚█████╔╝██║░╚═╝░██║███████╗  ░░░██║░░░╚█████╔╝\r\n");
+            Console.WriteLine("░░░╚═╝░░░╚═╝░░╚══════╝╚══════╝░╚════╝░░╚════╝░╚═╝░░░░░╚═╝╚══════╝  ░░░╚═╝░░░░╚════╝░\r\n");
+            Console.Write("░██████╗██╗░░░██╗██████╗░███╗░░██╗░█████╗░██████╗░░██████╗███████╗  ███████╗███╗░░██╗░██████╗░██╗███╗░░██╗███████╗\r\n");
+            Console.Write("██╔════╝╚██╗░██╔╝██╔══██╗████╗░██║██╔══██╗██╔══██╗██╔════╝██╔════╝  ██╔════╝████╗░██║██╔════╝░██║████╗░██║██╔════╝\r\n");
+            Console.Write("╚█████╗░░╚████╔╝░██████╔╝██╔██╗██║███████║██████╔╝╚█████╗░█████╗░░  █████╗░░██╔██╗██║██║░░██╗░██║██╔██╗██║█████╗░░\r\n");
+            Console.Write("░╚═══██╗░░╚██╔╝░░██╔═══╝░██║╚████║██╔══██║██╔═══╝░░╚═══██╗██╔══╝░░  ██╔══╝░░██║╚████║██║░░╚██╗██║██║╚████║██╔══╝░░\r\n");
+            Console.Write("░╚═══██╗░░╚██╔╝░░██╔═══╝░██║╚████║██╔══██║██╔═══╝░░╚═══██╗██╔══╝░░  ██╔══╝░░██║╚████║██║░░╚██╗██║██║╚████║██╔══╝░░\r\n");
+            Console.Write("██████╔╝░░░██║░░░██║░░░░░██║░╚███║██║░░██║██║░░░░░██████╔╝███████╗  ███████╗██║░╚███║╚██████╔╝██║██║░╚███║███████╗\r\n");
+            Console.Write("");
+            Console.Write("");
+            Console.Write("");
+            Console.Write("");
+            Console.Write("");
+            Console.Write("");
+            Thread.Sleep(5000);
             Console.WriteLine("Please enter your name");
             string name = Console.ReadLine();
             Console.WriteLine("Hello " + name + "!");
@@ -39,15 +86,14 @@ namespace MyProperCSharpJourney.Exersise_work.Sypnapse
             Console.WriteLine("Please press ENTER to continue");
             Console.ReadKey();
             
-            Console.WriteLine("Welcome to the SypnapseEngine Alpha 1.2.4");
+            Console.WriteLine("Welcome to the SypnapseEngine Alpha 1.3.2");
             
             
             while (true)
             {
                 Console.WriteLine("Enter [1] to play");
                 Console.WriteLine("Enter [2] to see credits");
-                Console.WriteLine("Enter [3] to see error codes");
-                Console.WriteLine("Enter [4] to exit");
+                Console.WriteLine("Enter [3] to exit");
 
 
                
@@ -64,9 +110,7 @@ namespace MyProperCSharpJourney.Exersise_work.Sypnapse
                         }
                         else if (GameInput == "2")
                         {
-                            Console.WriteLine("You have selected ???");
-                            Console.WriteLine("Press any button to exit");
-                            Console.ReadLine();
+                        Game2();
                         }
                         else if (GameInput == "3")
                         {
@@ -84,12 +128,8 @@ namespace MyProperCSharpJourney.Exersise_work.Sypnapse
                         Credits(name);
                     }
 
-                    else if (MenuInput == "3")
-                    {
-                        Console.WriteLine("Error Code 9694: Game contents cannot be found (Aka the developer could not be physically bothered to code that game)");
-                    }
 
-                else if (MenuInput == "4")
+                else if (MenuInput == "3")
                     {
                         Console.WriteLine("Exiting...");
                         break;
@@ -106,7 +146,7 @@ namespace MyProperCSharpJourney.Exersise_work.Sypnapse
             private static void Game1()
         {
             Console.WriteLine("You have selected 289-B84");
-            Console.WriteLine("Error code: 9694");
+            Console.WriteLine("Error code: 9694 failed to load assets(aka the developer wasnt bothered to add any games yet becuase he is an F- ranked coder)");
             Console.WriteLine("Press any button to exit");
             Console.ReadLine();
         }
@@ -117,8 +157,16 @@ namespace MyProperCSharpJourney.Exersise_work.Sypnapse
             Console.WriteLine("You have selected ???");
             Console.WriteLine("Game packages unloading");
             Console.WriteLine("Initalising Snapshot Beta 1.1.1");
-            Console.WriteLine("An error ocurred whilst loading [SNAPSHOT BETA 1.1.1] to maintain Alpha's Package integrety Program_??? has been terminated");
-            Console.WriteLine("Press any button to exit");
+            Console.WriteLine("An error ocurred whilst loading [SNAPSHOT BETA 1.1.1] to maintain Alpha's PackageIntegrety_Program_(???) has been terminated");
+            Console.WriteLine("Attempting to restart Sypnapse");
+            Console.WriteLine("An error has been found");
+            Console.WriteLine("Error code: 0647");
+            Console.WriteLine("Error: Failed to load assets");
+            Console.WriteLine("Warning packages are C0rRuPT1Ng");
+            Console.WriteLine("AUt0m3T1c FA1L sAf3 1NITIaT1nG");
+            Console.WriteLine("Program Succesfully rolled back to Alpha 1.1.34");
+            Console.WriteLine("Version may be unstable due to the older impending application");
+            Console.WriteLine("Press any button to initiate rollback restart");
             Console.ReadLine();
         }
 
