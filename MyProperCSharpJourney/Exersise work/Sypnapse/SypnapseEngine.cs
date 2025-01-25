@@ -23,10 +23,6 @@ namespace MyProperCSharpJourney.Exersise_work.Sypnapse
             Console.WriteLine("CURRENT SYSTEM MEMORY USAGE 500MB");
             Thread.Sleep(2000);
             Console.WriteLine("SYPNAPSE.EXE LOADED");
-            Thread.Sleep(2000);
-            Console.WriteLine("RUNNING SYPNAPSE ALPHA V1.3.5");
-            Thread.Sleep(1000);
-            Console.WriteLine("Sypnapse Incorporated:");
             Thread.Sleep(5000);
             Console.WriteLine("──────────────────────────────");
             Console.Write("───────────────▄▄───▐█\r\n");
@@ -35,6 +31,7 @@ namespace MyProperCSharpJourney.Exersise_work.Sypnapse
             Console.Write("▐█▀▀▌───▄▀▌─▌─█─▌──▌─▌\r\n");
             Console.Write("▌▀▄─▐──▀▄─▐▄─▐▄▐▄─▐▄─▐▄\r\n");
             Console.Write("──────────────────────────────");
+            Console.WriteLine("Sypnapse Incorporated");
             Thread.Sleep(10000);
             Console.WriteLine("");
             Console.WriteLine("");
@@ -58,17 +55,23 @@ namespace MyProperCSharpJourney.Exersise_work.Sypnapse
             Console.Write("");
             Console.Write("");
             Thread.Sleep(5000);
+            Console.WriteLine("Welcome to the Sypnapse Engine Alpha-V1.3.5");
+            Thread.Sleep(4000);
             Console.WriteLine("Please enter your name");
+
             string name = Console.ReadLine();
+            Thread.Sleep(3000);
             Console.WriteLine("Hello " + name + "!");
 
             while (true)
             {
+                Thread.Sleep(3000);
                 Console.WriteLine("Please enter your password");
 
                 string password = Console.ReadLine();
                 if (password == "314159265")
                 {
+                    Thread.Sleep(1000);
                     Console.WriteLine("Password correct");
                     break;
                 }
@@ -78,15 +81,22 @@ namespace MyProperCSharpJourney.Exersise_work.Sypnapse
                 }
                 else
                 {
+                    Thread.Sleep(1000);
                     Console.WriteLine("Incorrect password, try again");
+                    Thread.Sleep(3000);
                     Console.WriteLine("Press \"HELP\" for help");
                 }
             }
 
+            Console.WriteLine("Sypnapse Incorporated brings you Sypnapse Engine");
+            Thread.Sleep(3000);
+            Console.WriteLine("Multiple updates pushed regularly");
+            Console.WriteLine("Enjoy the multiple \"variety of\" games");
+
             Console.WriteLine("Please press ENTER to continue");
             Console.ReadKey();
             
-            Console.WriteLine("Welcome to the SypnapseEngine Alpha 1.3.2");
+            Console.WriteLine("Loading Menu...");
             
             
             while (true)
