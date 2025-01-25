@@ -39,7 +39,7 @@ namespace MyProperCSharpJourney.Exersise_work.Sypnapse
             Console.WriteLine("Please press ENTER to continue");
             Console.ReadKey();
             
-            Console.WriteLine("Welcome to the SypnapseEngine Alpha 1.2.3");
+            Console.WriteLine("Welcome to the SypnapseEngine Alpha 1.2.4");
             
             
             while (true)
@@ -68,13 +68,7 @@ namespace MyProperCSharpJourney.Exersise_work.Sypnapse
                             Console.WriteLine("Press any button to exit");
                             Console.ReadLine();
                         }
-
-                        else if (MenuInput == "3")
-                        {
-                        Console.WriteLine("Error Code 9694: Game contents cannot be found (Aka the developer could not be physically bothered to code that game)");
-                        }    
-
-                        else if (MenuInput == "4")
+                        else if (GameInput == "3")
                         {
                             Console.WriteLine("Exiting...");
                             break;
@@ -89,14 +83,20 @@ namespace MyProperCSharpJourney.Exersise_work.Sypnapse
                     {
                         Credits(name);
                     }
+
                     else if (MenuInput == "3")
+                    {
+                        Console.WriteLine("Error Code 9694: Game contents cannot be found (Aka the developer could not be physically bothered to code that game)");
+                    }
+
+                else if (MenuInput == "4")
                     {
                         Console.WriteLine("Exiting...");
                         break;
                     }
                     else
                     {
-                        Console.WriteLine("Invalid input");
+                        Console.WriteLine("Invalid input, Rolling back to last command...");
                     }
 
 
