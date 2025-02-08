@@ -10,7 +10,8 @@ namespace MyProperCSharpJourney.SoloLearn
     {
         public static void Example()
         {
-            int score = Convert.ToInt32(Console.ReadLine());
+            string input = Console.ReadLine();
+            int score = Convert.ToInt32(input);
             string message = (score > 75) ? "Pass" : "Fail";
             Console.WriteLine(message); 
         }

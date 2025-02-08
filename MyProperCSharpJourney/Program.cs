@@ -27,6 +27,9 @@ class Program
         //IfElse.Example();
         //SypnapseEngine.Example();
         //LogicalOperators.Example();
-        TernaryOperator.Example();
+        //TernaryOperator.Example();
+        //TheForLoop.Example();
+        //TheWhileLoop.Example();
+        BreakAndContinue.Example();
     }
 }
