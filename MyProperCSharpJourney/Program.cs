@@ -1,6 +1,7 @@
 ﻿using CSharpTutorial.SoloLearn;
 using MyProperCSharpJourney.Exersise_work;
 using MyProperCSharpJourney.Exersise_work.Sypnapse;
+using MyProperCSharpJourney.SoloLearn;
 
 namespace CSharpTutorial;
 
@@ -24,7 +25,8 @@ class Program
         //OperatorsAndStrings.Example();
         //ComparisonOperators.Example();
         //IfElse.Example();
-        SypnapseEngine.Example();
-
+        //SypnapseEngine.Example();
+        //LogicalOperators.Example();
+        TernaryOperator.Example();
     }
 }
