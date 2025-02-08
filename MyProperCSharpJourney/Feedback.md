@@ -9,7 +9,7 @@ Well done Ian, I love Milo! It looks like you had a lot of fun creating that pro
 
 In summary though, a great start, Ian. Keep up the good work!
 
-## 20205/01/25
+## 2025/01/25
 Greate work Ian. Synapse was fun to use! 
 Great use of method. I know we haven't reached that far in the course yet. But they are a great way to keep your code clean.
 Also, well done for using the `Console.ReadLine()` to allow the user to read your messages before continuing.
@@ -36,3 +36,6 @@ Here are a couple of comments:
 	Console.WriteLine(myMultiLineString);
   ```
 - Finally, have a go at using interpolation: ie `$"My name is {name}"` instead of `My name + " is " name"`. Once you've tried it, you can see which one you like better.
+
+## 2025/02/01
+A slow one this week, but I know this was due to illness. If you're feeling better next week, it would be good to do as much as you can to finish the introduction course and complete all introduction exercises in the Exercise folder, (not including the Exercism questions necessarily). I'm not sure how possible this will be, but if you could aim to get as much of that done as possible it would be good to get us back on track.
