@@ -9,7 +9,7 @@ Well done Ian, I love Milo! It looks like you had a lot of fun creating that pro
 
 In summary though, a great start, Ian. Keep up the good work!
 
-## 20205/01/25
+## 2025/01/25
 Greate work Ian. Synapse was fun to use! 
 Great use of method. I know we haven't reached that far in the course yet. But they are a great way to keep your code clean.
 Also, well done for using the `Console.ReadLine()` to allow the user to read your messages before continuing.
@@ -17,14 +17,13 @@ Also, well done for using the `Console.ReadLine()` to allow the user to read you
 Here are a couple of comments:
 
 - A switch statement would be a great choice for you game selection. See if you can incorporate that. ie: 
-	- 
 	```
 	switch (game) 
 	{ 
 		case "1": ... 
 		case "2": ... 
 	}
-    ```
+	```
 - A bit more advanced, but if at all possible, try not to nest you `if` statements too much. No nesting is ideal, but a depth of 1 is ok. One way to achieve this is by checking for a 'small' case and then, in your case, continuing with the next iteration of the while loop. Feel free to ask if you need more clarification on this.
 - The `Console.Write("... \r\n")` is interesting. I imagine it was possibly AI generated? I only say 'iteresting' as the `\r\n` could have been eliminated with use of `Console.WriteLine`. There's no reason why you should know this just yet, but you can use multi-line strings using 3 quotes: ie:
   ```
@@ -36,3 +35,6 @@ Here are a couple of comments:
 	Console.WriteLine(myMultiLineString);
   ```
 - Finally, have a go at using interpolation: ie `$"My name is {name}"` instead of `My name + " is " name"`. Once you've tried it, you can see which one you like better.
+
+## 2025/02/01
+A slow one this week, but I know this was due to illness. If you're feeling better next week, it would be good to do as much as you can to finish the introduction course and complete all introduction exercises in the Exercise folder, (not including the Exercism questions necessarily). I'm not sure how possible this will be, but if you could aim to get as much of that done as possible it would be good to get us back on track.
