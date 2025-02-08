@@ -17,14 +17,13 @@ Also, well done for using the `Console.ReadLine()` to allow the user to read you
 Here are a couple of comments:
 
 - A switch statement would be a great choice for you game selection. See if you can incorporate that. ie: 
-	- 
 	```
 	switch (game) 
 	{ 
 		case "1": ... 
 		case "2": ... 
 	}
-    ```
+	```
 - A bit more advanced, but if at all possible, try not to nest you `if` statements too much. No nesting is ideal, but a depth of 1 is ok. One way to achieve this is by checking for a 'small' case and then, in your case, continuing with the next iteration of the while loop. Feel free to ask if you need more clarification on this.
 - The `Console.Write("... \r\n")` is interesting. I imagine it was possibly AI generated? I only say 'iteresting' as the `\r\n` could have been eliminated with use of `Console.WriteLine`. There's no reason why you should know this just yet, but you can use multi-line strings using 3 quotes: ie:
   ```
