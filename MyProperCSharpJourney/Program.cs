@@ -30,6 +30,10 @@ class Program
         //TernaryOperator.Example();
         //TheForLoop.Example();
         //TheWhileLoop.Example();
-        BreakAndContinue.Example();
+        //BreakAndContinue.Example();
+        //MultipleParameters.Example();
+        //Parameters_ArgumentsExersise.Example();
+        GuessGame.Example();
+
     }
 }

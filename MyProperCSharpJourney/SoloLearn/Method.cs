@@ -11,6 +11,7 @@ namespace MyProperCSharpJourney.SoloLearn
         public static void Example()
         {
             // i ran out of hearts sorry
-            
+
+        }
     }
 }
