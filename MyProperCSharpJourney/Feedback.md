@@ -38,3 +38,42 @@ Here are a couple of comments:
 
 ## 2025/02/01
 A slow one this week, but I know this was due to illness. If you're feeling better next week, it would be good to do as much as you can to finish the introduction course and complete all introduction exercises in the Exercise folder, (not including the Exercism questions necessarily). I'm not sure how possible this will be, but if you could aim to get as much of that done as possible it would be good to get us back on track.
+
+## 2025/02/22
+Well done with your ATM exercise! You have shown a good of understanding of the use of the Random class, the while loop and decrementing values.
+
+The `break` command wasn't used exactly as I had hoped, I had hoped that you would break out of the loop on the input of a correct PIN before the third attempt. It is not really intended to finish a program. In order to know how to proceed from there, the use of a bool - `isPinCorrect` would have been useful. Here is an example:
+
+```
+Random random = new Random();
+int pin = random.Next(1000, 10000);
+int attempts = 3;
+bool isPinCorrect = false;
+
+while (attempts > 0)
+{
+	Console.Write("Enter your pin: ");
+	int input = Convert.ToInt32(Console.ReadLine());
+
+	if (input == pin)
+	{
+		isPinCorrect = true;
+		break;
+	}
+
+	attempts--;
+	Console.WriteLine($"Incorrect pin. You have {attempts} attempts left.");
+}
+
+if (isPinCorrect)
+{
+	Console.WriteLine("Correct pin entered.");
+	// Now you can ask questions about withdrawing and depositing.
+}
+else
+{
+	Console.WriteLine("You have run out of attempts.");
+}
+```
+
+Notice that you don't need the `else` - if we hit the `break`, then we won't reach the next line.
