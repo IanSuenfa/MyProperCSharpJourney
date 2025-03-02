@@ -33,8 +33,8 @@ class Program
         //BreakAndContinue.Example();
         //MultipleParameters.Example();
         //Parameters_ArgumentsExersise.Example();
-        //GuessGame.Example();
-        ATM.Example();
+        GuessGame.Example();
+        //ATM.Example();
 
     }
 }
