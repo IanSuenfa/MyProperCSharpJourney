@@ -77,3 +77,43 @@ else
 ```
 
 Notice that you don't need the `else` - if we hit the `break`, then we won't reach the next line.
+
+## 2025/03/01
+Well done Ian. I noticed that you have completed 2 exercises. I also noted that you had completed the Guess Game some time ago, so will also comment on that.
+
+### Doing Math (Calculator)
+I hadn't expected that you would create a calculator for the user, this was just one of the early exercises to familiarise yourself with the ability to do maths in C#. However, well done - you even found a class that I didn't know existed, (ie: the DataTable class), and also discovered the `try-catch` syntax.
+
+### Ride
+Your method certainly works. However, I was hoping that you could practice the `continue` statement, something like this -
+
+```
+	for(int i = 1; i < 14; i++)
+	{
+		if (i < 7) 
+		{
+			contiue;
+		}
+
+		Console.WriteLine($"You're {i}? Come right inside");
+	}
+```
+
+### Guess Game
+You mentioned that this is unfinished? Is that because it lacks error handling if the user enters a non numeric input? If this is the case, it seems that you have discovered the `try-catch` syntax in your calculator, which you can also use here.
+Alternatively, instead of using `Convert.ToInt32`, you could use `int.TryParse` which will return a boolean value if the conversion was successful and provide you with the integer value as an `out` parameter. This way you can check if the user has entered a number before proceeding, like this -
+
+```
+	const isParsed = int.TryParse(Console.ReadLine(), out int guess);
+
+	if (!isParsed)
+	{
+		Console.WriteLine("Please enter a number");
+		continue;
+	}
+
+	// The rest of your code
+```
+
+I'd really like to see if we can finish these first exercises next week, I think we just have the Logical Operators, switch as ternary operator. The first one might take a bit longer, but I think the second 2 should be quite short.
+I think it would be nice to start your final project at the beginning of May, which means that we need to have finished the second part of the course by then. I also need to fill in some gaps at the end, which will also need time.
