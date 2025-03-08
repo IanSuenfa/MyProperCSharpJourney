@@ -1,6 +1,7 @@
 ﻿using CSharpTutorial.SoloLearn;
 using MyProperCSharpJourney.Exersise_work;
 using MyProperCSharpJourney.Exersise_work.Sypnapse;
+using MyProperCSharpJourney.Exisism;
 using MyProperCSharpJourney.SoloLearn;
 
 namespace CSharpTutorial;
@@ -36,6 +37,9 @@ class Program
         //GuessGame.Example();
         //ATM.Example();
         //Ride.Example();
-        Calculator.Example();
+        //Calculator.Example();
+        //Leap.Example(2025);
+        //TwoFer.Example("");
+        SpaceAge.Example();
     }
 }

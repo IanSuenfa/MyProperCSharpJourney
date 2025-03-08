@@ -61,12 +61,7 @@ namespace MyProperCSharpJourney.Exersise_work
                     Console.WriteLine("WRONG GUESS");
                     Console.WriteLine("You have: " + (5 - attempts) + "attempts left");
                 }
-                //else
-                //{
-                //    Thread.Sleep(10000);
-                //    Console.WriteLine("ENTER A VALID NUMBER AND SINCE YOU WASTED MY TIME THATS MINUS 1 GUESS");
-                //    Console.WriteLine("You have:", attempts, "left");
-                //}
+                
 
                 if (attempts == 5)
                 {
