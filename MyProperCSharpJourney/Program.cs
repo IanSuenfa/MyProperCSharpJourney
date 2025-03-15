@@ -40,6 +40,9 @@ class Program
         //Calculator.Example();
         //Leap.Example(2025);
         //TwoFer.Example("");
-        SpaceAge.Example();
-    }
+        //SpaceAge.Example();
+        //Class.Example();
+        //Encapsulation.Example();
+        Properties.Example();
+    }   
 }
