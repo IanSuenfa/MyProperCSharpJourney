@@ -117,3 +117,31 @@ Alternatively, instead of using `Convert.ToInt32`, you could use `int.TryParse` 
 
 I'd really like to see if we can finish these first exercises next week, I think we just have the Logical Operators, switch as ternary operator. The first one might take a bit longer, but I think the second 2 should be quite short.
 I think it would be nice to start your final project at the beginning of May, which means that we need to have finished the second part of the course by then. I also need to fill in some gaps at the end, which will also need time.
+
+## 2025/03/08
+You didn't do the exercises I had expected, but the Exercism exercises you did covered the switch statment (in SpaceAge)  and logical operators, (in Leap). Don't worry about the terneray operator now, it's a fairly small thing and can be used in the future.
+
+### Leap
+This was a good opportunity to show your use of logical operators. However, a nicer and more readable way to show this could have been with a method like this
+```	
+private bool IsLeapYear(int year)
+{
+	if (year % 400 == 0)
+		return true;
+
+	if (year % 100 == 0)
+		return false;
+
+	if (year % 4 == 0)
+		return true;
+
+	return false;
+}
+```
+
+### SpaceAge
+One of the mantras of good programming is DRY - Don't Repeat Yourself. This is so that if you need to change something, you only need to do it in one place instead of multiple.
+Have a look at where repetition occurs and see if you can create a method to handle this.  
+Knowledge of Dictionaries would have been nice for this one, but this will come later in the course.
+
+Well done though. I think you can continue onto the C# intermediate course now.
