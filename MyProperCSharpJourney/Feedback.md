@@ -145,3 +145,24 @@ Have a look at where repetition occurs and see if you can create a method to han
 Knowledge of Dictionaries would have been nice for this one, but this will come later in the course.
 
 Well done though. I think you can continue onto the C# intermediate course now.
+
+## 2025/03/15
+Well done on completing the Classes and Objects module. This is the essence of Object Oriented Programming. Here are a couple pointers.
+* classes generaly have their own file. Creating the file will automatically create the class.
+* classes are usually public (which you will need to check if you get an error that it cannot be accessed)
+* class, property and method names are PascalCase (first letter of each word is capitalised)
+* class fields are camelCase (first letter is lowercase, then each word is capitalised) and are precded by a `_`, eg: `_myField_`
+* although you have seen a lot of examples with logic in the getters and setters, this implementation is acually very rare. It's good to know about, but in practice, we generally use -
+```
+public string MyProperty { get; set; }
+```
+as opposed to -
+```
+public string MyProperty
+{
+	get { return _myProperty; }
+	set { _myProperty = value; }
+}
+```
+
+Next, try the exercise in the Exercises folder on Tyranids. 
