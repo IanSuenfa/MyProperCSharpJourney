@@ -44,8 +44,14 @@ class Program
         //Class.Example();
         //Encapsulation.Example();
         //Properties.Example();
+
+
         SocialNetwork.Example();
-        Test.Example();
+        //Sorry for the slow week, there was an error which didnt allow me to run the code, but now its fixed i had to rebuild the project
+
+        //Test.Example();
+        
+        //Test47.Example();
 
         // Wait for user input before closing
         Console.WriteLine("Press any key to exit...");

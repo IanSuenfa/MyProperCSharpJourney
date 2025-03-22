@@ -4,10 +4,10 @@ using System.IO.Pipes;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//Task on sololearn
 namespace MyProperCSharpJourney.SoloLearn
 {
-    public static class SocialNetwork
+    public static class SocialNetwork //Sorry for the slow week, there was an error which didnt allow me to run the code, but now its fixed i had to rebuild the project
     {
         public static void Example()
         {
