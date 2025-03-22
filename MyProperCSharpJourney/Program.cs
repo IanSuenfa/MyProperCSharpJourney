@@ -43,6 +43,12 @@ class Program
         //SpaceAge.Example();
         //Class.Example();
         //Encapsulation.Example();
-        Properties.Example();
+        //Properties.Example();
+        SocialNetwork.Example();
+        Test.Example();
+
+        // Wait for user input before closing
+        Console.WriteLine("Press any key to exit...");
+        Console.ReadKey();
     }   
 }
