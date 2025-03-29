@@ -49,7 +49,9 @@ class Program
         //Arrays.Example();
         //ArraysInLoops.Example();
         //MultiDimesionArrays.Example();
-        JaggedArrays.Example();
+        //JaggedArrays.Example();
+        WhGame.Example();
+
 
         // Wait for user input before closing
         Console.WriteLine("Press any key to exit...");
