@@ -165,4 +165,58 @@ public string MyProperty
 }
 ```
 
-Next, try the exercise in the Exercises folder on Tyranids. 
+Next, try the exercise in the Exercises folder on Tyranids.
+
+## 2025/03/22
+Don't worry about this slow week, Ian. Dealing with the unexpected is all part of software development. Well done for managing to sort out the problem, that is all part of learning too.
+
+## 2025/03/29
+Well done Ian, I see that in some ways you have done more than expected, incorporating inheritance, abstract classes and protected members into your project, which I believe will come later in the course. Well done.
+
+I think you might have have slightly misunderstood the role of the class, which is completely understandable as it is a new paradigm. I also remember having trouble with this when I first started. You are now learning about instance classes which can be instantiated using the `new` keyword. These are different to the static classes that you are more accustomed to.
+
+Think of an class like a librarian stamp, which is used by the librarian to make as many imprints of that stamp as they want. In this case, the stamp is the class and the imprints are the 'objects' of that class. The stamp does not use itself, but instead is used by something (or someone) else. Similarly, a class generally does not use or instantiate itself into an object, but instead is used by another area of code to instantiate an object. The calling code can then use the public members of that newly instantiated object.
+
+```
+public class Tyranid
+{
+	// here is my tyranid functionality
+}
+
+public static class CallingClass
+{
+	var myFirstTyranid = new Tyranid();		// first object (or imprint)
+	var mySecondTyranid = new Tyranid();	// second object (or imprint)
+
+	var status = myFirstTyranid.Status();	// using the public members
+}
+```
+
+Maybe instantiating 2 or 3 objects from the same class in your calling code can help to solidify this idea.
+
+You will also find later than instance classes can also be used by other instance classes, and not just by static classes.
+
+eg. (Silly example, but you get the idea)
+```
+public class SpaceMarine
+{
+	private Tyranid _petTyranid;
+
+	public SpaceMarine()
+	{
+		_petTyranid = new Tyranid();
+	}
+}
+```
+
+Also, while it is not necessarily incorrect to add multiple classes to the same file, it is generally a good practice to have one class per file. If you would like to organise these, you could do so using folders.
+eg:
+
+* TyranidExcercise (Folder)
+  * Units (Folder)
+	* Unit (abstract class)
+	* Tyranid
+	* SpaceMarine
+  * WhGame
+
+It looks as though you still have a few members methods to implement. Add these in so they can be used in the items 1 -12 in your static class.
