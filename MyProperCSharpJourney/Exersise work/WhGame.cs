@@ -135,23 +135,23 @@ namespace MyProperCSharpJourney.Exersise_work
     {
         public static void Example()
         {
-            Console.WriteLine("Welcome to the Warhammer 40k game!");
-            Console.WriteLine("Choose your faction:");
-            Console.WriteLine("1. Tyranids");
-            Console.WriteLine("2. Space Marines");
-            int Faction = Convert.ToInt16(Console.ReadLine());
-            if (Faction == 1)
-            {
-                Tyranid.Example();
-            }
-            else if (Faction == 2)
-            {
-                SpaceMarine.Example();
-            }
-            else
-            {
-                Console.WriteLine("Invalid selection");
-            }
+            //Console.WriteLine("Welcome to the Warhammer 40k game!");
+            //Console.WriteLine("Choose your faction:");
+            //Console.WriteLine("1. Tyranids");
+            //Console.WriteLine("2. Space Marines");
+            //int Faction = Convert.ToInt16(Console.ReadLine());
+            //if (Faction == 1)
+            //{
+            //    Tyranid.Example();
+            //}
+            //else if (Faction == 2)
+            //{
+            //    SpaceMarine.Example();
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid selection");
+            //}
         }
 
         public static int RollDice()
