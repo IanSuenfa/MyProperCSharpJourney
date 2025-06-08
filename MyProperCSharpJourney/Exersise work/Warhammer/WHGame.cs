@@ -1,67 +1,35 @@
-﻿using MyProperCSharpJourney.Exersise_work.Warhammer;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using MyProperCSharpJourney.Exersise_work.Warhammer.Units.Tyranids;
+using MyProperCSharpJourney.Exersise_work.Warhammer.Units.SpaceMarines;
+using MyProperCSharpJourney.Exersise_work.Warhammer.Units;
+
 
 namespace MyProperCSharpJourney.Exersise_work
 {
-    public abstract class Unit
-    {
-        private bool _isAlive = true;
-        public string Name { get; }
-        public int UnitAmount { get; }
-        public int Health { get; private set; }
-
-        public int Toughness { get; private set; }
-        public int Saves { get; }
-
-        protected Unit(string name, int unitAmount, int saves, int toughness, int health)
-        {
-            Name = name;
-            UnitAmount = unitAmount;
-            Saves = saves;
-            Health = health;
-            Toughness = toughness;
-            _isAlive = health > 0;
-        }
-
-        public void TakeDamage(int damage)
-        {
-            Health -= damage;
-            if (Health <= 0)
-            {
-                _isAlive = false;
-            }
-        }
-
-        public bool IsAlive() => _isAlive;
-
-        public void ShowStats()
-        {
-            Console.WriteLine($"Name: {Name}");
-            Console.WriteLine($"Unit Amount: {UnitAmount}");
-            Console.WriteLine($"Saves: {Saves}");
-            Console.WriteLine($"Toughness: {Toughness}");
-            Console.WriteLine($"Health: {Health}");
-            Console.WriteLine($"Is Alive: {IsAlive()}");
-        }
-
-        public void Attack(Unit target)
-        {
-            Console.WriteLine($"{Name} attacks {target.Name}!");
-            int damage = -1;
-            target.TakeDamage(damage);
-            Console.WriteLine($"{target.Name} takes {damage} damage!");
-        }
-
-    }
-
-
-
-
 
     public static class WhGame
     {
-        public static void Example()
+            public static void Example()
         {
+            var tyranid = new Tyranid("Tyranid", 3, 3, 4, 3, 2);
+
+            var spaceMarine = new SpaceMarine("Space Marine", 4, 5, 5, 3, 1);
+
+            var PerailingLeap = new TyranidAttack("PerailingLeap", 3, 4, 5, 2);
+
+
+            tyranid.ShowStats();
+            spaceMarine.ShowStats();
+            tyranid.ShowWStats();
+            spaceMarine.ShowStats();
+
+
             
+
         }
 
         public static int RollDice()
@@ -71,6 +39,9 @@ namespace MyProperCSharpJourney.Exersise_work
             Console.WriteLine("Dice roll: " + diceRoll);
             return diceRoll;
         }
+
+
+        //Console.WriteLine("Test Tyranid attack first");
     }
 
 }

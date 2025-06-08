@@ -9,7 +9,7 @@ namespace MyProperCSharpJourney.SoloLearn
 {
     public static class Class
     {
-            class dog {
+            class Dog {
                 public int age;
                 public string name;
                 public string breed;
@@ -17,7 +17,7 @@ namespace MyProperCSharpJourney.SoloLearn
             }
         public static void Example()
         {
-            dog bog = new dog();
+            Dog bog = new Dog();
             bog.age = 10;
             bog.name = "Bog";
             bog.breed = "Bulldog";
