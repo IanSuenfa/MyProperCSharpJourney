@@ -1,6 +1,7 @@
 ﻿using CSharpTutorial.SoloLearn;
 using MyProperCSharpJourney.Exersise_work;
 using MyProperCSharpJourney.Exersise_work.Sypnapse;
+using MyProperCSharpJourney.Exersise_work.WarHammers;
 using MyProperCSharpJourney.Exisism;
 using MyProperCSharpJourney.SoloLearn;
 
@@ -50,11 +51,48 @@ class Program
         //ArraysInLoops.Example();
         //MultiDimesionArrays.Example();
         //JaggedArrays.Example();
-        WhGame.Example();
+        //WhGame.Example();
+        WHGame.Example();
 
 
         // Wait for user input before closing
         Console.WriteLine("Press any key to exit...");
         Console.ReadKey();
-    }   
+    }
 }
+
+
+
+
+
+//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
+
+//namespace MyProperCSharpJourney.Exersise_work.WarHammers.Units.T1Attack
+//{
+//    public abstract class T1Attack
+//    {
+//        public string Name { get; }
+//        public int Attacks { get; }
+//        public int Damage { get; }
+
+//        protected T1Attack(string name, int attacks, int damage)
+//        {
+//            Name = name;
+//            Attacks = attacks;
+//            Damage = damage;
+//        }
+
+//        public void ShowWStats()
+//        {
+//            Console.WriteLine($"Name : {Name}");
+//            Console.WriteLine($"Number of Attacks: {Attacks}");
+//            Console.WriteLine($"Damage: {Damage}");
+//        }
+
+
+//    }
+//}
