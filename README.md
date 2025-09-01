@@ -21,7 +21,8 @@ Doing this for Dofe
 ## Screenshots
 https://www.sololearn.com/certificates/CC-ABGLHM4R<br>
 https://www.sololearn.com/certificates/CC-XCQCSRGA
-[Open PDF](images/4f9a0afd-e336-488b-9de0-d4a3db605129.pdf)
+![My Image](images/4f9a0afd-e336-488b-9de0-d4a3db605129.png)
+
 
 
 ## Conclusion
