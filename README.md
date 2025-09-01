@@ -19,12 +19,12 @@ Doing this for Dofe
 - complete Dofe
 
 ## Screenshots
-https://www.sololearn.com/certificates/CC-ABGLHM4R
+https://www.sololearn.com/certificates/CC-ABGLHM4R:
 ![Screenshot](https://github.com/IanSuenfa/MyProperCSharpJourney/blob/master/MyProperCSharpJourney/Images/Screenshot%202025-09-01%20175112.png)
 
+<br>
 
-
-
+https://www.sololearn.com/certificates/CC-XCQCSRGA
 ![Screenshot](https://github.com/IanSuenfa/MyProperCSharpJourney/blob/master/MyProperCSharpJourney/Images/Screenshot%202025-09-01%20175057.png)
 
 
