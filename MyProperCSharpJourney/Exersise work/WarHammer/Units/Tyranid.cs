@@ -7,15 +7,16 @@ using MyProperCSharpJourney.Exersise_work.WarHammers.Units;
 
 namespace MyProperCSharpJourney.Exersise_work.WarHammers.Units
 {
-    public class Tyranid2 : WHUnit
+    public class Tyranid : WHUnit
     {
-        public Tyranid2(string name, int health)
+        public Tyranid(string name, int health)
             : base(name, health) { }
     }
 
-    public class Tyranid2Attack : WHAttack
+    public class TyranidAttack : WHAttack
     {
-        public Tyranid2Attack(string name, int attacks, int damage)
+        public TyranidAttack(string name, int attacks, int damage)
             : base(name, attacks, damage) { }
+
     }
 }

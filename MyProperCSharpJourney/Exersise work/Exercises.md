@@ -111,11 +111,11 @@ In your Tyranid class add and implement the following members -
 In your ClassesAndObjects class -
 
 1. Instantiate two tyranids :)
-2. Have one tyranid attack another tyranid ...
-3. Use Status() to check that the other tyranid’s health decreases by the expected amount
-4. Allow the injured tyranid to sleep for a number of hours
-5. Use Status() to check that the tyranid’s health has recovered by the expected amount
-6. Allow the injured tyranid to sleep for 100 hourswhen
+2. Have one tyranid attack another tyranid :)
+3. Use Status() to check that the other tyranid’s health decreases by the expected amount :)
+4. Allow the injured tyranid to sleep for a number of hours :)
+5. Use Status() to check that the tyranid’s health has recovered by the expected amount :)
+6. Allow the injured tyranid to sleep for 100 hours when
 7. Use Status() to check that the tyranid’s health has not increased beyond 100
 8. Have the injured tyranid kill the other tyranid, (you could use a ‘for’ loop to attack)
 9. Use Status() to check that the tyranid is dead.

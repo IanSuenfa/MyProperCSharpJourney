@@ -4,28 +4,28 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MyProperCSharpJourney.Exersise_work.WarHammers;
+using MyProperCSharpJourney.Exersise_work.WarHammers.Units;
 
 namespace MyProperCSharpJourney.Exersise_work.WarHammers.Units
 {
-    public static class Tyranid2Attacks
+    public static class TyranidAttacks
     {
         private static Random random = new Random();
-
-        public static int LastDamage { get; private set; }
-        public static void Example()
+        public static int damageDealt { get; private set; }
+        public static int Example(WHAttack attack)
         {
-            var tyranid2Attack = new Tyranid2Attack("Tyranid Attack", 3, 2);
-
-            int attacks = tyranid2Attack.Attacks;
-
             int total = 0;
-            for (int i = 0; i < attacks; i++)
+            for (int i = 0; i < attack.Attacks; i++)
             {
                 int diceRoll = random.Next(1, 7);
                 total += diceRoll;
             }
-            LastDamage = total * tyranid2Attack.Damage;
-            Console.WriteLine($"Tyranid 2 delt {LastDamage} damage");
+
+            damageDealt = total * attack.Damage;
+            Console.WriteLine($"{attack.Name} dealt {damageDealt}");
+            return damageDealt;
         }
+
     }
 }

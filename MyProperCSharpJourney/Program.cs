@@ -1,4 +1,5 @@
 ﻿using CSharpTutorial.SoloLearn;
+using MyProperCSharpJourney;
 using MyProperCSharpJourney.Exersise_work;
 using MyProperCSharpJourney.Exersise_work.Sypnapse;
 using MyProperCSharpJourney.Exersise_work.WarHammers;
@@ -11,6 +12,11 @@ class Program
 {
     static void Main(string[] args)
     {
+        //var ian = new Person("Ian", 14);
+        //var meredith = new Person("Meredith", 11);
+
+        //var tyranid1 = new WarHammers.Units.Tyranid("Tyranid1", 100);
+
         //FirstCSharpProgram.Example();
         //FirstCSharpProgram.Exercise();
 
@@ -52,7 +58,7 @@ class Program
         //MultiDimesionArrays.Example();
         //JaggedArrays.Example();
         //WhGame.Example();
-        //WHGame.Example();
+        WHGame.Example();
         //Inheritance.Example();
         //Enums.Example();
 
