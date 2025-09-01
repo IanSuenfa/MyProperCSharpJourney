@@ -19,9 +19,8 @@ Doing this for Dofe
 - complete Dofe
 
 ## Screenshots
-https://www.sololearn.com/certificates/CC-ABGLHM4R<br>
-https://www.sololearn.com/certificates/CC-XCQCSRGA
-![My Image](images/4f9a0afd-e336-488b-9de0-d4a3db605129.png)
+![Screenshot](Images/Screenshot 2025-09-01 175057.png)
+
 
 
 
