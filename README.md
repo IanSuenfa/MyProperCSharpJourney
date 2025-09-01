@@ -19,6 +19,10 @@ Doing this for Dofe
 - complete Dofe
 
 ## Screenshots
+![Screenshot](https://github.com/IanSuenfa/MyProperCSharpJourney/blob/master/MyProperCSharpJourney/Images/Screenshot%202025-09-01%20175112.png)
+
+
+
 
 ![Screenshot](https://github.com/IanSuenfa/MyProperCSharpJourney/blob/master/MyProperCSharpJourney/Images/Screenshot%202025-09-01%20175057.png)
 
