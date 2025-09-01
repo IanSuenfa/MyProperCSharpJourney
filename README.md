@@ -19,8 +19,8 @@ Doing this for Dofe
 - complete Dofe
 
 ## Screenshots
-![Screenshot](Images/Screenshot_2025-09-01_175057.png)
 
+![Screenshot](https://github.com/IanSuenfa/MyProperCSharpJourney/blob/master/MyProperCSharpJourney/Images/Screenshot%202025-09-01%20175057.png)
 
 
 
