@@ -1,17 +1,21 @@
 # MyProperCSharpJourney
 
 This repository showcases my journey through the solo learn c# course and my visual studio 2022 files
-Sorry i had to delete the other one, got into... technical issues
 
 ## Project Overview
 
-Doing this for Dofe 
+Learning C# for Dofe Bronze And personal gain
 
 ## Milestones
 
 1. Got visual studio 2022 running
-2. Did some work
-3. made milo the summary bot. Don't worry, he is not sentiant, i hope...
+2. Did some work on sololearn
+3. Completed tasks
+4. completed the intoductory couese on sololearn
+5. started intermediate on sololearn
+6. completed some exersism tasks
+7. completed intermediate course
+
 ## Future Plans
 
 - Complete final project
@@ -19,9 +23,14 @@ Doing this for Dofe
 - complete Dofe
 
 ## Screenshots
-https://www.sololearn.com/certificates/CC-ABGLHM4R<br>
-https://www.sololearn.com/certificates/CC-XCQCSRGA
-![My Image](images/4f9a0afd-e336-488b-9de0-d4a3db605129.png)
+https://www.sololearn.com/certificates/CC-ABGLHM4R:
+![Screenshot](https://github.com/IanSuenfa/MyProperCSharpJourney/blob/master/MyProperCSharpJourney/Images/Screenshot%202025-09-01%20175112.png)
+
+<br><br><br>
+
+https://www.sololearn.com/certificates/CC-XCQCSRGA:
+![Screenshot](https://github.com/IanSuenfa/MyProperCSharpJourney/blob/master/MyProperCSharpJourney/Images/Screenshot%202025-09-01%20175057.png)
+
 
 
 
