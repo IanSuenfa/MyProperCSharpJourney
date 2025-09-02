@@ -23,7 +23,6 @@ namespace MyProperCSharpJourney.Exersise_work.WarHammers.Units
             }
 
             damageDealt = total * attack.Damage;
-            Console.WriteLine($"{attack.Name} dealt {damageDealt}");
             return damageDealt;
         }
 

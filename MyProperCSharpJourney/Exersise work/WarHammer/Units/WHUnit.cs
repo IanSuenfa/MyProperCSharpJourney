@@ -13,7 +13,6 @@ namespace MyProperCSharpJourney.Exersise_work.WarHammers.Units
         public string Name { get; }
         public int Health { get; private set; }
 
-        // FUTURE IAN ADD REGEN IF ATTACK AND TAKE DAMAGE IS FALSE!!!
 
         protected WHUnit(string name, int health)
         {
@@ -23,22 +22,32 @@ namespace MyProperCSharpJourney.Exersise_work.WarHammers.Units
         }
 
         public void Sleep(int hours)
-        {
-            if (!_isAlive)
-            {
-                Console.WriteLine($"{Name} is dead and cannot sleep to heal.");
-                return;
-            }
-            else if (Health > 100)
-            { Health = 100; }
-            int healAmount = hours * 2;
-            Health += healAmount;   
-        }
+{
+    if (!_isAlive)
+    {
+        Console.WriteLine($"{Name} is dead and cannot heal by sleeping or attack");
+        return;
+    }
+
+    int healAmount = hours; 
+
+    if (Health + healAmount > 100)
+    {
+        healAmount = 100 - Health;
+        Health = 100;
+    }
+    else
+    {
+        Health += healAmount;
+    }
+
+    Console.WriteLine($"{Name} slept for {hours} hours and healed {healAmount} health. Current health: {Health}");
+}
+
 
         public void TakeDamage(int damage)
         {
             Health -= damage;
-            //Health -= Tyranid1Attacks.LastDamage;
             if (Health <= 0)
             {
                 _isAlive = false;

@@ -115,13 +115,13 @@ In your ClassesAndObjects class -
 3. Use Status() to check that the other tyranid’s health decreases by the expected amount :)
 4. Allow the injured tyranid to sleep for a number of hours :)
 5. Use Status() to check that the tyranid’s health has recovered by the expected amount :)
-6. Allow the injured tyranid to sleep for 100 hours when
-7. Use Status() to check that the tyranid’s health has not increased beyond 100
-8. Have the injured tyranid kill the other tyranid, (you could use a ‘for’ loop to attack)
-9. Use Status() to check that the tyranid is dead.
-10. Try to make the dead tyranid attack(), (and confirm that this is impossible)
-11. Try to revive the dead tyranid using Sleep()
-12. Use Status() to confirm that Health is still at zero.
+6. Allow the injured tyranid to sleep for 100 hours :)
+7. Use Status() to check that the tyranid’s health has not increased beyond 100 :)
+8. Have the injured tyranid kill the other tyranid, (you could use a ‘for’ loop to attack) :)
+9. Use Status() to check that the tyranid is dead. :)
+10. Try to make the dead tyranid attack(), (and confirm that this is impossible) :)
+11. Try to revive the dead tyranid using Sleep() :)
+12. Use Status() to confirm that Health is still at zero. :)
 
 (we can have the tyranids attack each other as part of the next array module)
 
