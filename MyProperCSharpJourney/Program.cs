@@ -61,7 +61,9 @@ class Program
         //WHGame.Example();
         //Inheritance.Example();
         //Enums.Example();
-        RSPB.Example();
+        //RSPB.Example();
+        //Grains.Example();
+        PerfectNumbers.Example();
 
         // Wait for user input before closing
         Console.WriteLine("Press any key to exit...");

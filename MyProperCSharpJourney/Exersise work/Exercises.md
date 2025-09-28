@@ -176,10 +176,10 @@ These can be found and searched [here](https://exercism.org/tracks/csharp/exerci
 
 You may want to call your method multiple times with different parameters to check all cases.
 
-1. Leap
-2. Two fer
-3. Space age
-4. Grains
+1. Leap. 
+2. Two fer . 
+3. Space age .
+4. Grains ,
 5. Perfect Numbers
 6. Collatz Conjecture
 7. Difference of Squares
