@@ -63,8 +63,10 @@ class Program
         //Enums.Example();
         //RSPB.Example();
         //Grains.Example();
-        PerfectNumbers.Example();
-
+        //PerfectNumbers.Example();
+        //CollatzConjecture.Example();
+        //DifferenceOfSquare.Example();
+        ArmstrongNumbers.Example();
         // Wait for user input before closing
         Console.WriteLine("Press any key to exit...");
         Console.ReadKey();

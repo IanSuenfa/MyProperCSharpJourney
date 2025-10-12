@@ -19,7 +19,6 @@ namespace MyProperCSharpJourney.Exisism
                 {
                     sum += i;
                     Console.WriteLine(i); 
-
                 }
 
 
