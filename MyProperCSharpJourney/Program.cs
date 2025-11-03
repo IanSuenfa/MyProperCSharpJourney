@@ -66,7 +66,8 @@ class Program
         //PerfectNumbers.Example();
         //CollatzConjecture.Example();
         //DifferenceOfSquare.Example();
-        ArmstrongNumbers.Example();
+        //ArmstrongNumbers.Example();
+        Darts.Example();
         // Wait for user input before closing
         Console.WriteLine("Press any key to exit...");
         Console.ReadKey();
