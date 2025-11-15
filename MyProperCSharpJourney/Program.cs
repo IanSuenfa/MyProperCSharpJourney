@@ -67,7 +67,9 @@ class Program
         //CollatzConjecture.Example();
         //DifferenceOfSquare.Example();
         //ArmstrongNumbers.Example();
-        Darts.Example();
+        //Darts.Example();
+        //Triangle.Example();
+        Raindrops.Example();
         // Wait for user input before closing
         Console.WriteLine("Press any key to exit...");
         Console.ReadKey();
