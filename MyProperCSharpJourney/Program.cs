@@ -69,7 +69,12 @@ class Program
         //ArmstrongNumbers.Example();
         //Darts.Example();
         //Triangle.Example();
-        Raindrops.Example();
+        //Raindrops.Example();
+        //BeerSong.Example();
+        Sieve.Example();
+
+
+
         // Wait for user input before closing
         Console.WriteLine("Press any key to exit...");
         Console.ReadKey();
